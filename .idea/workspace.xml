@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5210b32-26ea-4000-8256-dc93790b1bc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b5210b32-26ea-4000-8256-dc93790b1bc8" name="Changes" comment="Adding Dummy Data and model classes">
+      <change afterPath="$PROJECT_DIR$/src/model/Bottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Glasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/BaseProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BaseProduct.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="642e2a5a-6680-4a7e-a404-2d2f16fed6f8" />
+        <option name="url" value="https://github.com/dvazquezgg/OOPServices" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,11 +87,23 @@
       <updated>1676775281498</updated>
       <workItem from="1676775282982" duration="4218000" />
       <workItem from="1676985903274" duration="89000" />
-      <workItem from="1676986604798" duration="2015000" />
+      <workItem from="1676986604798" duration="6900000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding Dummy Data and model classes">
+      <created>1676988955076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676988955076</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding Dummy Data and model classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Dummy Data and model classes" />
   </component>
 </project>
