@@ -1,7 +1,7 @@
 package services;
 
 // services.MessagingService.java
-public class MessagingService extends BaseService {
+public class MessagingService extends BaseService implements AuthenticationService {
     public MessagingService(String name, String description) {
         super(name, description);
     }
@@ -20,5 +20,15 @@ public class MessagingService extends BaseService {
 
     public void receiveMessage() {
         // code to receive a message
+    }
+
+    @Override
+    public void authenticateUser() {
+
+    }
+
+    @Override
+    public void authorizeUser() {
+
     }
 }
