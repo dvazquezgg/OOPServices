@@ -8,6 +8,7 @@ public class AuthCredentials {
     private String password;
     private Date registrationDate;
     private String email;
+    private boolean isLogged;
 
     public AuthCredentials(int id, String username, String password, String email, Date registrationDate) {
         this.id = id;
@@ -15,6 +16,7 @@ public class AuthCredentials {
         this.password = password;
         this.email = email;
         this.registrationDate = registrationDate;
+        this.isLogged = false;
     }
 
     public String getUsername() {
@@ -43,6 +45,24 @@ public class AuthCredentials {
 
     public int getId() {
         return id;
+    }
+
+    public boolean isLogged() {
+        return isLogged;
+    }
+
+    public void setLogged(boolean isLogged) {
+        this.isLogged = isLogged;
+    }
+    @Override
+    public String toString() {
+        return "AuthCredentials{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", registrationDate=" + registrationDate +
+                ", email='" + email + '\'' +
+                '}';
     }
 }
 

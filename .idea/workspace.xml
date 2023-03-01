@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5210b32-26ea-4000-8256-dc93790b1bc8" name="Changes" comment="Demonstration Code">
-      <change afterPath="$PROJECT_DIR$/AuthCred.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/AuthCredentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/MessageUser.java" afterDir="false" />
+    <list default="true" id="b5210b32-26ea-4000-8256-dc93790b1bc8" name="Changes" comment="Authorization Code and Data">
+      <change afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CourseData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CourseData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StudentData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/StudentData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/CSVFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/CSVFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/AuthCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/AuthCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/MessageUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MessageUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/MessagingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/MessagingService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +78,23 @@
       <recent name="model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dvazquez\IdeaProjects\OOPServices" />
       <recent name="C:\Users\dvazquez\IdeaProjects\OOPServices\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Services" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,7 +109,8 @@
       <workItem from="1676986604798" duration="7482000" />
       <workItem from="1677183371805" duration="2113000" />
       <workItem from="1677252425225" duration="71000" />
-      <workItem from="1677590465079" duration="1076000" />
+      <workItem from="1677590465079" duration="3831000" />
+      <workItem from="1677676938723" duration="1726000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Dummy Data and model classes">
       <created>1676988955076</created>
@@ -109,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676993785979</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Authorization Code and Data">
+      <created>1677591578112</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677591578112</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding Dummy Data and model classes" />
     <MESSAGE value="Demonstration Code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demonstration Code" />
+    <MESSAGE value="Authorization Code and Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authorization Code and Data" />
   </component>
 </project>

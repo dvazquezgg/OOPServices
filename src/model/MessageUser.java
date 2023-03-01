@@ -1,21 +1,16 @@
 package model;
 
-public class MessageUser {
-
-    Person person;
-    AuthCredentials authCredentials;
+public class MessageUser extends User {
 
     public MessageUser(Person person, AuthCredentials authCredentials) {
-        this.person = person;
-        this.authCredentials = authCredentials;
+        super(person, authCredentials);
     }
 
-    public Person getPerson() {
-        return person;
+    @Override
+    public String toString() {
+        return "MessageUser{" +
+                "person=" + person +
+                ", authCredentials=" + authCredentials +
+                '}';
     }
-
-    public AuthCredentials getAuthCredentials() {
-        return authCredentials;
-    }
-
 }
